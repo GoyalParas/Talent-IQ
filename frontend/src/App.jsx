@@ -1,6 +1,6 @@
 
 import './App.css'
-import {SignInButton} from '@clerk/clerk-react';
+import {SignedIn, SignedOut, SignInButton, UserButton} from '@clerk/clerk-react';
 
 function App() {
   
@@ -8,7 +8,15 @@ function App() {
   return (
     <>
       <h1>Welcome to the App</h1>
+      <SignedOut>     
       <SignInButton mode="modal" />
+      </SignedOut>   
+
+      <SignedIn>
+        <SignedOutButton />
+      </SignedIn> 
+
+      <UserButton />
     </>
   )
 }
