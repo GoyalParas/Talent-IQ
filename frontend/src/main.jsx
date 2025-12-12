@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { ClerkProvider } from '@clerk/clerk-react'
 import { BrowserRouter } from "react-router";
+import { Toaster } from 'react-hot-toast'
 
 // Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -16,7 +17,8 @@ createRoot(document.getElementById('root')).render(
     <StrictMode>
       <BrowserRouter>
       <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
-        <App />
+          <App />
+          <Toaster />
       </ClerkProvider>
      </BrowserRouter>
     </StrictMode>,
