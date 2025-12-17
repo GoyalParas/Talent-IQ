@@ -1,9 +1,6 @@
-## 🔵 Live Demo  
-<h3>
-  👉 <a href="https://hirelens-n84wz.sevalla.app/#/" style="color:red;">
-    CLICK HERE 🚀
-  </a>
-</h3>
+## 🚨 Deployed Project  
+### 👉 🔴 CLICK HERE 🚀  
+https://hirelens-n84wz.sevalla.app/#/
 
 <h1 align="center">✨ Full-Stack Interview Platform ✨</h1>
 
